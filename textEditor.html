@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="textEditor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav-bar">
+       <div>Files</div>
+       <div>Save As</div>
+       <div>About Us</div>
+       <div>Your Profile</div>
+        <div class="reset">
+           Reset
+        </div>
+    </div>
+    <div class="side-bar">
+        <div class="heading">
+        <select name="Heading" id="">
+            <option value="">Heading</option>
+            <option value="">h1</option>
+            <option value="">h2</option>
+            <option value="">h3</option>
+            <option value="">h4</option>
+            <option value="">h5</option>
+            <option value="">h6</option>
+        </select>
+    </div>
+        <div class="styling">
+            <button><i class="fa-solid fa-b"></i></button>
+            <button><i class="fa-solid fa-i"></i></button>
+            <button><i class="fa-solid fa-u"></i></button>
+            <button>"</button>
+        </div>
+        <div class="font">
+        <select name="Font" id="">
+            <option value="">Font</option>
+            <option value="">Sans-serif</option>
+            <option value="">Serif</option>
+            <option value="">Cursive</option>
+            <option value="">Fantasy</option>
+            <option value="">Monospace</option>
+        </select>
+    </div>
+    <button id="setBackground">Click And Set The Background Color Of Your Textarea.</button>
+    <button id="setText">Click And Set The Color Of Your Textarea.</button>
+    </div>
+    <div class="paragraph">
+        
+        <div class="para"> <h1> MAKE YOUR OWN SENTENCES....</h1></div>
+    </div>
+    <div class="textEditing">
+        <textarea style="width: 920px; height: 80px; border-radius: 20px; font-size: large;padding: 10px;" placeholder="Write Something Here->"></textarea>
+    </div>
+</body>
+<script src="textEditor.js"></script>
+</html>
